@@ -9,7 +9,7 @@ import android.widget.Toast;
 public class AnalystPage4Activity extends AppCompatActivity {
 
     public void finishButton(View v){
-        Toast.makeText(this,"Registered RealTime",Toast.LENGTH_SHORT);
+        Toast.makeText(this,"Registered RealTime",Toast.LENGTH_SHORT).show();
     }
 
 
