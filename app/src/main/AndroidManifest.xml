@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.silkboardapplication">
+
+    <application
+        android:allowBackup="true"
+        android:name="android.support.multidex.MultiDexApplication"
+        android:icon="@mipmap/output"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/output"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChooseBwSAorSOActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity android:name=".cardObject"/>
+        <activity android:name=".adapter"/>-->
+        <activity android:name=".cardActivity"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".AnalystPage2" />
+        <activity android:name=".AnalystPage1" />
+        <activity android:name=".ChoiceBwRcrAndRspSa" />
+        <activity android:name=".AnalystPage3" />
+        <activity android:name=".ChoiceBwRcrAndRspSo" />
+        <activity android:name=".AnalystPage4Activity" />
+        <activity android:name=".AnalystRsp1Activity" />
+        <activity android:name=".AnalystRsp2Activity" />
+        <activity android:name=".AnalystRsp3Activity" />
+        <activity android:name=".AnalystRsp4Activity" />
+        <activity android:name=".AnalystRsp5Activity" />
+        <activity android:name=".AnalystRsp6Activity" />
+        <activity android:name=".AnalystRsp7Activity" />
+        <activity android:name=".AnalystRsp8Activity" />
+        <activity android:name=".OfficerRcr1Activity" />
+        <activity android:name=".OfficerRcr2Activity" />
+        <activity android:name=".OfficerRcr3Activity" />
+        <activity android:name=".OfficerRcr4Activity" />
+        <activity android:name=".OfficerRcr5Activity" />
+        <activity android:name=".OfficerRcr6Activity" />
+        <activity android:name=".OfficerRcr7Activity" />
+        <activity android:name=".OfficerRsp1Activity" />
+        <activity android:name=".OfficerRsp2Activity" />
+        <activity android:name=".OfficerRsp3Activity" />
+        <activity android:name=".OfficerRsp4Activity" />
+        <activity android:name=".OfficerRsp5Activity" />
+        <activity android:name=".OfficerRsp6Activity" />
+        <activity android:name=".OfficerRsp7Activity" />
+        <activity android:name=".OfficerRcr8Activity"></activity>
+
+    </application>
+
+</manifest>

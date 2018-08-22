@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoiceBwRcrAndRspSo"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/logo_image_view"
+            android:layout_width="137dp"
+            android:layout_height="141dp"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/output" />
+
+        <TextView
+            android:id="@+id/username_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="70dp"
+            android:text="Proforma for Seed Analysts’ Mandatory Inspection (System Certification) Report"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/rcr_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="clickRCR"
+            android:text="REGISTERED CHAWKI REARERS"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_button" />
+
+        <Button
+            android:id="@+id/rsp_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="clickRSP"
+            android:text="REGISTERED SEED PRODUCERS"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_button" />
+
+
+    </LinearLayout>
+</ScrollView>

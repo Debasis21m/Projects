@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">केंद्रीय रेशम बोर्ड</string>
+
+    <string-array name="prominent_array">
+        <item>Yes</item>
+        <item>No</item>
+        <item>Discontinued</item>
+        <item>Elapsed</item>
+    </string-array>
+</resources>
